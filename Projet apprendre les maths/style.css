@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffe100;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f9680e;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #eb0202;
+}
+
+body {
+  font-family: Kanit, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-image: url(back.jpg);
+  background-size: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+/*+++++++++++++++++++++NAVBAR++++++++++++++++++++*/
+nav {
+   overflow: hidden;
+   background-color: #fff000;
+   width: 100%;
+   opacity: 0.9;
+   margin-top: -250px;
+   position: fixed;
+}
+
+
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+  text-transform: uppercase;
+
+}
+
+
+#logo {
+
+  float: left;
+  font-weight: bold;
+  font-size: 5vh;
+
+}
+
+#logo1 {
+  padding: 18px 16px;
+  float: right;
+}
+
+#logo a:hover {
+  transform: scale(1.1);
+  text-shadow: 2px 2px 5px #958c17;
+  transition: 0.1s;
+}
+
+#logo1 a:hover {
+  transform: scale(1.1);
+  text-shadow: 2px 2px 5px #958c17;
+  transition: 0.1s;
+}
+
+
+
+
+
+
+/*+++++++++++++++++++++++IMAGE PRINCIPALE+++++++++++++++++*/
+
+
+
+h1 {
+  text-align: center;
+  margin-top: 250px;
+  font-size: 6em;
+  text-transform: uppercase;
+}
+
+#premiertrait {
+
+  height: 1px;
+  width: 25%;
+  background-color: black;
+  margin: -3px auto;
+}
+
+h2{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+
+/*++++++++++++++++++++++++++CLASSES++++++++++++++++++++*/
+
+h4 {
+  text-align: center;
+  margin-top: 200px;
+  font-family: Kanit, sans-serif;
+  font-weight: bold;
+  
+
+}
+
+#classes {
+  background-color: chocolate;
+}
+
+#classes a:hover {
+  text-shadow: 2px 2px 5px #222222;
+  transition: 0.1s;
+}
